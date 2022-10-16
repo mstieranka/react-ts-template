@@ -22,4 +22,6 @@ corepack enable
 corepack prepare pnpm@latest --activate
 ```
 
-Then run `pnpm start` to get a hot-reloading preview or `pnpm run build` to build the app into `dist/`.
+Then install packages with `pnpm install`.
+
+After that, you can run `pnpm start` to get a hot-reloading preview or `pnpm run build` to build the app into `dist/`.
