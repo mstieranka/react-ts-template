@@ -15,11 +15,7 @@ First, ensure that you have `node.js v16.x` and `pnpm 7.x` installed:
 
 ```bash
 node -v
-pnpm -v
-
-# when running node 16.17+, you can install pnpm with the following:
-corepack enable
-corepack prepare pnpm@latest --activate
+pnpm -v || npm install -g pnpm
 ```
 
 Then install packages with `pnpm install`.
